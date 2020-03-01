@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="app_name">hello world</string>
-    <string name="name_title">text field</string>
+    <string name="name_title">name field</string>
+    <string name="name_hint">Your Name</string>
     <string name="phone_title">phone field</string>
+    <string name="phone_hint">Your Phone Number</string>
+    <string name="cb_title">gender field</string>
     <string name="cb_male">male</string>
     <string name="cb_female">female</string>
     <string name="btn_save">save</string>
+    <string name="count_title">increment count</string>
     <string name="count">1</string>
 </resources>

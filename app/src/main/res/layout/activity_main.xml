@@ -23,7 +23,9 @@
         android:layout_marginBottom="25dp"
         android:layout_marginTop="5dp"
         android:background="@color/colorBackgroundField"
-        android:inputType="text"/>
+        android:inputType="text"
+        android:hint="@string/name_hint"
+        android:autofillHints="@string/name_hint"/>
 
     <TextView
         android:id="@+id/phoneTitle"
@@ -42,7 +44,19 @@
         android:layout_marginBottom="25dp"
         android:layout_marginTop="5dp"
         android:background="@color/colorBackgroundField"
-        android:inputType="phone"/>
+        android:inputType="phone"
+        android:hint="@string/phone_hint"
+        android:autofillHints="@string/phone_hint" />
+
+    <TextView
+        android:id="@+id/checkBoxTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorBackgroundText"
+        android:text="@string/cb_title"
+        android:textSize="25sp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -53,7 +67,7 @@
             android:id="@+id/cb_male"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"
             android:background="@color/colorBackgroundText"
             android:text="@string/cb_male"/>
 
@@ -61,10 +75,20 @@
             android:id="@+id/cb_female"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"
             android:background="@color/colorBackgroundText"
             android:text="@string/cb_female"/>
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/countTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorBackgroundText"
+        android:text="@string/count_title"
+        android:textSize="25sp"/>
 
     <TextView
         android:id="@+id/count"
