@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackgroundPrimary">#A1A9BA</color>
+    <color name="colorBackgroundText">#A1A9BA</color>
+    <color name="colorBackgroundField">#FFF</color>
+</resources>
