@@ -6,7 +6,6 @@ import android.view.View
 import android.widget.Toast
 import android.widget.Button
 import android.widget.TextView
-import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
